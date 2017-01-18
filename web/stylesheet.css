@@ -1,0 +1,177 @@
+body
+{
+    background-image: url("background.png");
+    background-attachment: fixed;    
+    background-size: 100% 100%;
+
+}
+	
+h1
+	{
+		color: white;
+		margin: -8px;
+		text-align:center;
+		background-color: #333;		
+		font-family:verdana;
+		padding:80px;
+                padding-top: 60px;
+		background-size: 50px 70px;
+		font-size:250%;
+	}
+	
+h2      
+	{
+		color:#333;
+		text-align:center;
+		font-size:200%;
+		font-family:courier
+		}
+
+nav	
+	{
+		background-color: #FFA401;
+		text-decoration: none;
+		height: 40px;
+                box-shadow: 10px 10px 70px #000;
+                padding:  0px 10px ;
+	}
+
+a
+	{
+                border:1px solid #333;
+		border-left:1px solid white;
+		border-bottom:2px solid #333;
+		border-right: 1px solid white;
+		text-transform:capitalize;
+		padding: 9px 50px;
+		color: #000;
+                font-family: Verdana;
+		margin-left:70px;
+		font-size: 16px;
+		text-decoration:none;
+		line-height: 40px;
+                border-radius: 50px;
+                
+	}
+	
+a:hover
+	{
+	        font-style: oblique;
+                color: #fff;
+                background-color: #D40400;
+	}
+	
+fieldset
+	{	
+		border: 5px solid black;
+		background-color: #999;
+		height:240px;
+		width:19%;
+		margin-top:0px;
+		float: left;
+                margin-left: 200px;
+                box-shadow: 10px 10px 10px #888;
+	}
+
+legend
+	{
+		border: 1px solid white;
+		border-bottom:3px solid #eee; 
+		text-align: center;
+                color: white;
+		background-color: #d40400;
+	}
+footer
+	{
+		background-color:#888;
+		padding:2px 20px;
+		font-size:16px;
+		text-align:center;
+		width:60%;
+		border-radius:4px;
+		border:2px solid #D40400;
+		position: fixed;
+                bottom: 2px;
+                margin: 0px auto;
+                margin-left: 240px;
+        }
+.clear 
+	{
+		clear:both;
+	}	
+
+input
+	{
+		background-color:#eee;
+		border-radius:7px;
+                margin-left: 20px;
+                width: 200px;
+	}	
+
+tr
+	{
+		border:2px solid #D40400;
+		padding:5px;
+		border-radius:5px;
+	}	
+	
+tr:nth-child(even)
+	{
+		background-color:#333;
+	}	
+	
+tr:nth-child(odd)
+	{
+		background-color:#777;
+	}	
+	
+td	{
+		width:100px;
+		color:#CCC;
+		text-align:center;
+                padding-left: 50px;
+                padding-right: 20px;
+                padding-top: 15px;
+                padding-bottom: 10px;
+                width:  auto;
+                
+	}	
+	
+th
+	{
+		text-align:center;
+                
+	}
+
+        table{
+            border: 5px solid #000;
+            border-radius: 10px;
+            border-style: double;
+            box-shadow: 20px 20px 30px #aaa;
+        }   
+
+input:focus {
+   -moz-box-shadow:    inset 0 0 10px #a00;
+   -webkit-box-shadow: inset 0 0 10px #a00;
+   box-shadow:          0 0 40px #D40400;
+}
+
+textArea:focus {
+   -moz-box-shadow:    inset 0 0 10px #a00;
+   -webkit-box-shadow: inset 0 0 10px #a00;
+   box-shadow:          0 0 40px #D40400;
+}
+img
+{
+-moz-transform: scale(1) rotate(3deg) translateX(3px) translateY(3px) skewX(3deg) skewY(3deg);
+-webkit-transform: scale(1) rotate(3deg) translateX(3px) translateY(3px) skewX(3deg) skewY(3deg);
+-o-transform: scale(1) rotate(3deg) translateX(3px) translateY(3px) skewX(3deg) skewY(3deg);
+-ms-transform: scale(1) rotate(3deg) translateX(3px) translateY(3px) skewX(3deg) skewY(3deg);
+transform: scale(1) rotate(3deg) translateX(3px) translateY(3px) skewX(3deg) skewY(3deg);
+}
+marquee
+{
+    background-color: #666;
+    margin-left: 250px;
+    margin-right: 250px;
+}
